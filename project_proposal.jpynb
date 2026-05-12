@@ -1,0 +1,6 @@
+Project Title: Motor Unit Based Muscle Contraction Model.
+This project will attempt to answer how the distribution of motor units (MU's) affect force production. I will use numerical methods to simulate a muscle made up of N number of motor units each with a specific recruitment point and maximum force output. Then I will use the trapezoidal rule or simposons rule to calculate force over time. I can also simulate training by increase the force constants of specific motor units and testing how it shifts the recruitment point. I should be able to do all this using the Henneman's Size principle and Hill muscle model.
+The directory would be structedered with 4 files, one for data inlcuding the constants I will need such as MU thresholds or maximum force outputs. A code file with my main code. A plot file with visulations of some of the codes, and a readme file with my final project report. 
+Some of the Resources I plan to use include the two listed above as well as the standford muscle model and possibly the muscle model by jakemcgrath. 
+In a perfect world I would be able to complete each step of the project weekly (though this is highly unlikely)
+One reach goal (My main reach goal) would be to expand on the project by also analyzing muscle fatigue. Another could be to possibly study muscle protein synthesis and how they could affect hypertrophy. 
