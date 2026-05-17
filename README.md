@@ -25,8 +25,8 @@ This code is designed to be run in a Jupyter Notebook (.ipynb) or a standard Pyt
 * Jupyter: Paste the code into a cell and press Shift + Enter
 * Python Script: Ensure you have a window manager installed to view the matplotlib pop-up.3. 
 Running the Simulation
-* Initialize Parameters: The first section sets up the 100 motor units and the time constant ($\tau = 0.15$)
-* Generate Drive: The script creates a sine-wave neural drive to simulate a rhythmic contraction
-* Compute Forces: The code calculates the static force and the dynamic (ODE-solved) force.View Results: A plot will generate showing the Neural Drive, Static Force, and Dynamic Force.Project Structure
-* Recruitment Logic: Simulates 100 motor units with varying thresholds.  
+* Initialize Parameters: The first section sets the two motor units pools and the time constant ($\tau = 0.15$). This can easily be changed by replacing the RR value for variation in an experiment.
+* Generate Drive: The script creates a sine-wave neural drive to simulate a rhythmic contraction (nothing to do here)
+* Compute Forces: The following two code cells calculates the static force and the dynamic (ODE-solved) force. View Results: A plot will generate showing the Neural Drive, Static Force, and Dynamic Force.Project Structure
+* Recruitment Logic: Simulates two motor unit pools with varying recruitment thresholds
 * Neural Drive: A sine-wave input representing the "brain signal."
